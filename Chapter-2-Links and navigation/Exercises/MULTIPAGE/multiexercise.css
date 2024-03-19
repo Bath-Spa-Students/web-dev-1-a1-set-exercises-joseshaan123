@@ -1,0 +1,796 @@
+header{
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+body{
+    background-color: gray;
+}
+.mainbox{
+    background-color: black;
+    width: 1550px;
+    height: 40px;
+    transform: translateY(-270px)translateX(-10px);
+}
+
+.mainbox1{
+    background-color: black;
+    width: 1550px;
+    height: 40px;
+    transform: translateY(-100px) translateX(-10px);
+}
+.filmgrill1{
+    background-color: black;
+    width: 50px;
+    height:200px;
+    transform: translateY(-320px)translateX(-10px);
+}
+.filmgrill2{
+    background-color: black;
+    width: 50px;
+    height:200px;
+    transform: translateX(275px)translateY(-530px);
+}
+.filmgrill3{
+    background-color: black;
+    width: 50px;
+    height:200px;
+    transform: translateX(550px)translateY(-720px);
+}
+.filmgrill4{
+    background-color: black;
+    width: 50px;
+    height:200px;
+    transform: translateX(900px)translateY(-930px);
+}
+.filmgrill5{
+    background-color: black;
+    width: 50px;
+    height:200px;
+    transform: translateX(1200px)translateY(-1120px);
+}
+.filmgrill6{
+    background-color: black;
+    width: 80px;
+    height:200px;
+    transform: translateX(1460px)translateY(-1330px);
+}
+.film{
+    display: flex;
+    width: 100%;
+    justify-content:space-evenly;
+    gap: 10px;
+
+}
+.filmroll1{
+    background-color:white;
+    height: 30px;
+    width:30px;
+    border-radius: 5px;
+    transform: translateY(-1547px) translateX(-0px);
+
+}
+.film2{
+    display: flex;
+    width: 100%;
+    justify-content:space-evenly;
+    gap: 10px;
+}
+.filmroll2{
+    background-color:white;
+    height: 30px;
+    width:30px;
+    border-radius: 5px;
+    transform: translateY(-1365px) translateX(-0px);
+}
+.h2{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: translateY(-1400px);
+
+}
+.navbox{
+    background-color: white;
+    width: 1550px;
+    height: 50px;
+    transform: translateY(-1440px) translateX(-10px);
+}
+
+.id{
+   
+    width: 200px;
+    height:50px;
+    margin-right:20px;
+    border: 0px;
+    background-color: black;
+    font-size:30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: translateY(-1490px) translateX(35px);
+}
+.p{
+    transform: translateY(-1460px);
+    font-size:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h3{
+    transform: translateY(-1430px);
+    font-size: 35px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.plotbox{
+    width: 840px;
+    height:5px;
+    background-color: white;
+    transform: translateY(-1440px)translateX(25px);
+    border-radius:15px;
+}
+.plot{
+    transform: translateY(-1560px)translateX(27px);
+    font-size: 18px;
+}
+h4{
+    transform: translateY(-1530px);
+    font-size: 35px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.synopsisbox{
+    width: 840px;
+    height:160px;
+    background-color: white;
+    border-radius:15px;
+    transform: translateY(-1540px)translateX(27px);
+}
+.synopsis{
+    transform: translateY(-1707px)translateX(29px);
+    font-size: 18px;
+}
+.castbox{
+    background-color: black;
+    width: 310px;
+    height:400px;
+    transform: translateX(1080px)translateY(-2185px);
+}
+h5{
+    color: white;
+    transform:translateX(1085px) translateY(-2630px);
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+th ,td{
+    border:1px solid;
+    color: white;
+    transform: translateX(1085px)translateY(-2680px);
+
+}
+.castminibox{
+     background-color:white;
+     width:70px;
+     height: 50px;
+     
+}
+h6{
+    color: black;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: translateY(-2560px);
+}
+.characterbox{
+    background-color: white;
+    width: 855px;
+    height: 300px;
+    transform: translateY(-2600px)translateX(27px);
+    border-radius: 15px;
+}
+.characterminibox{
+    background-color: black;
+    height: 120px;
+    width: 120px;
+    border-radius:5px;
+    transform: translateY(-2885px)translateX(35px);
+}
+.rick{
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translateY(-3025px)translateX(160px);
+}
+.rickp{
+    color: black;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translateY(-3035px)translateX(160px);
+}
+.characterminibox2{
+    background-color: black;
+    height: 120px;
+    width: 120px;
+    border-radius:5px;
+    transform: translateY(-3000px)translateX(35px);
+}
+.negan{
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translateY(-3140px)translateX(160px);
+}
+.neganp{
+    color: black;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translateY(-3160px)translateX(160px);
+}
+.h7{
+    color: black;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: translateY(-3140px);
+}
+.reviewbox{
+    width: 877px;
+    height:175px;
+    background-color: white;
+    border-radius:15px;
+    transform: translateY(-3180px)translateX(27px);
+}
+.reviewfeature{
+    color: gold;
+    transform: translateY(-3365px)translateX(29px);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.reviewp{
+    transform: translateY(-3375px)translateX(29px);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.linkp{
+    transform: translateY(-3320px)translateX(27px);
+    font-size: 20px;
+}
+.link{
+    transform: translateY(-3320px)translateX(27px);
+    border: 0px;
+    background-color: gold;
+    color: black;
+}header{
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+body{
+    background-color: gray;
+}
+.mainbox{
+    background-color: black;
+    width: 1550px;
+    height: 40px;
+    transform: translateY(-270px)translateX(-10px);
+}
+
+.mainbox1{
+    background-color: black;
+    width: 1550px;
+    height: 40px;
+    transform: translateY(-100px) translateX(-10px);
+}
+.filmgrill1{
+    background-color: black;
+    width: 50px;
+    height:200px;
+    transform: translateY(-320px)translateX(-10px);
+}
+.filmgrill2{
+    background-color: black;
+    width: 50px;
+    height:200px;
+    transform: translateX(275px)translateY(-530px);
+}
+.filmgrill3{
+    background-color: black;
+    width: 50px;
+    height:200px;
+    transform: translateX(550px)translateY(-720px);
+}
+.filmgrill4{
+    background-color: black;
+    width: 50px;
+    height:200px;
+    transform: translateX(900px)translateY(-930px);
+}
+.filmgrill5{
+    background-color: black;
+    width: 50px;
+    height:200px;
+    transform: translateX(1200px)translateY(-1120px);
+}
+.filmgrill6{
+    background-color: black;
+    width: 80px;
+    height:200px;
+    transform: translateX(1460px)translateY(-1330px);
+}
+.film{
+    display: flex;
+    width: 100%;
+    justify-content:space-evenly;
+    gap: 10px;
+
+}
+.filmroll1{
+    background-color:white;
+    height: 30px;
+    width:30px;
+    border-radius: 5px;
+    transform: translateY(-1547px) translateX(-0px);
+
+}
+.film2{
+    display: flex;
+    width: 100%;
+    justify-content:space-evenly;
+    gap: 10px;
+}
+.filmroll2{
+    background-color:white;
+    height: 30px;
+    width:30px;
+    border-radius: 5px;
+    transform: translateY(-1365px) translateX(-0px);
+}
+.h2{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: translateY(-1400px);
+
+}
+.navbox{
+    background-color: white;
+    width: 1550px;
+    height: 50px;
+    transform: translateY(-1440px) translateX(-10px);
+}
+
+.id{
+   
+    width: 200px;
+    height:50px;
+    margin-right:20px;
+    border: 0px;
+    background-color: black;
+    font-size:30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: translateY(-1490px) translateX(35px);
+}
+.p{
+    transform: translateY(-1460px);
+    font-size:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h3{
+    transform: translateY(-1430px);
+    font-size: 35px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.plotbox{
+    width: 840px;
+    height:110px;
+    background-color: white;
+    transform: translateY(-1440px)translateX(25px);
+    border-radius:15px;
+}
+.plot{
+    transform: translateY(-1560px)translateX(27px);
+    font-size: 18px;
+}
+h4{
+    transform: translateY(-1530px);
+    font-size: 35px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.synopsisbox{
+    width: 840px;
+    height:160px;
+    background-color: white;
+    border-radius:15px;
+    transform: translateY(-1540px)translateX(27px);
+}
+.synopsis{
+    transform: translateY(-1707px)translateX(29px);
+    font-size: 18px;
+}
+.castbox{
+    background-color: black;
+    width: 310px;
+    height:400px;
+    transform: translateX(1080px)translateY(-2185px);
+}
+h5{
+    color: white;
+    transform:translateX(1085px) translateY(-2630px);
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+th ,td{
+    border:1px solid;
+    color: white;
+    transform: translateX(1085px)translateY(-2680px);
+
+}
+.castminibox{
+     background-color:white;
+     width:70px;
+     height: 50px;
+     
+}
+h6{
+    color: black;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: translateY(-2560px);
+}
+.characterbox{
+    background-color: white;
+    width: 855px;
+    height: 300px;
+    transform: translateY(-2600px)translateX(27px);
+    border-radius: 15px;
+}
+.characterminibox{
+    background-color: black;
+    height: 120px;
+    width: 120px;
+    border-radius:5px;
+    transform: translateY(-2885px)translateX(35px);
+}
+.rick{
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translateY(-3025px)translateX(160px);
+}
+.rickp{
+    color: black;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translateY(-3035px)translateX(160px);
+}
+.characterminibox2{
+    background-color: black;
+    height: 120px;
+    width: 120px;
+    border-radius:5px;
+    transform: translateY(-3000px)translateX(35px);
+}
+.negan{
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translateY(-3140px)translateX(160px);
+}
+.neganp{
+    color: black;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translateY(-3160px)translateX(160px);
+}
+.h7{
+    color: black;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: translateY(-3140px);
+}
+.reviewbox{
+    width: 877px;
+    height:175px;
+    background-color: white;
+    border-radius:15px;
+    transform: translateY(-3180px)translateX(27px);
+}
+.reviewfeature{
+    color: gold;
+    transform: translateY(-3365px)translateX(29px);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.reviewp{
+    transform: translateY(-3375px)translateX(29px);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.linkp{
+    transform: translateY(-3320px)translateX(27px);
+    font-size: 20px;
+}
+.link{
+    transform: translateY(-3320px)translateX(27px);
+    border: 0px;
+    background-color: gold;
+    color: black;
+}header{
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+body{
+    background-color: gray;
+}
+.mainbox{
+    background-color: black;
+    width: 1550px;
+    height: 40px;
+    transform: translateY(-270px)translateX(-10px);
+}
+
+.mainbox1{
+    background-color: black;
+    width: 1550px;
+    height: 40px;
+    transform: translateY(-100px) translateX(-10px);
+}
+.filmgrill1{
+    background-color: black;
+    width: 50px;
+    height:200px;
+    transform: translateY(-320px)translateX(-10px);
+}
+.filmgrill2{
+    background-color: black;
+    width: 50px;
+    height:200px;
+    transform: translateX(275px)translateY(-530px);
+}
+.filmgrill3{
+    background-color: black;
+    width: 50px;
+    height:200px;
+    transform: translateX(550px)translateY(-720px);
+}
+.filmgrill4{
+    background-color: black;
+    width: 50px;
+    height:200px;
+    transform: translateX(900px)translateY(-930px);
+}
+.filmgrill5{
+    background-color: black;
+    width: 50px;
+    height:200px;
+    transform: translateX(1200px)translateY(-1120px);
+}
+.filmgrill6{
+    background-color: black;
+    width: 80px;
+    height:200px;
+    transform: translateX(1460px)translateY(-1330px);
+}
+.film{
+    display: flex;
+    width: 100%;
+    justify-content:space-evenly;
+    gap: 10px;
+
+}
+.filmroll1{
+    background-color:white;
+    height: 30px;
+    width:30px;
+    border-radius: 5px;
+    transform: translateY(-1547px) translateX(-0px);
+
+}
+.film2{
+    display: flex;
+    width: 100%;
+    justify-content:space-evenly;
+    gap: 10px;
+}
+.filmroll2{
+    background-color:white;
+    height: 30px;
+    width:30px;
+    border-radius: 5px;
+    transform: translateY(-1365px) translateX(-0px);
+}
+.h2{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: translateY(-1400px);
+
+}
+.navbox{
+    background-color: white;
+    width: 1550px;
+    height: 50px;
+    transform: translateY(-1440px) translateX(-10px);
+}
+
+.id{
+   
+    width: 200px;
+    height:50px;
+    margin-right:20px;
+    border: 0px;
+    background-color: black;
+    font-size:30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: translateY(-1490px) translateX(35px);
+}
+.p{
+    transform: translateY(-1460px);
+    font-size:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h3{
+    transform: translateY(-1430px);
+    font-size: 35px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.plotbox{
+    width: 840px;
+    height:110px;
+    background-color: white;
+    transform: translateY(-1440px)translateX(25px);
+    border-radius:15px;
+}
+.plot{
+    transform: translateY(-1530px)translateX(27px);
+    font-size: 18px;
+}
+h4{
+    transform: translateY(-1550px);
+    font-size: 35px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.synopsisbox{
+    width: 840px;
+    height:80px;
+    background-color: white;
+    border-radius:15px;
+    transform: translateY(-1555px)translateX(27px);
+}
+.synopsis{
+    transform: translateY(-1650px)translateX(29px);
+    font-size: 18px;
+}
+.castbox{
+    background-color: black;
+    width: 310px;
+    height:400px;
+    transform: translateX(1080px)translateY(-2060px);
+}
+h5{
+    color: white;
+    transform:translateX(1085px) translateY(-2510px);
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+th ,td{
+    border:1px solid;
+    color: white;
+    transform: translateX(1085px)translateY(-2550px);
+
+}
+.castminibox{
+     background-color:white;
+     width:70px;
+     height: 50px;
+     
+}
+h6{
+    color: black;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: translateY(-2530px);
+}
+.characterbox{
+    background-color: white;
+    width: 855px;
+    height: 150px;
+    transform: translateY(-2600px)translateX(27px);
+    border-radius: 15px;
+}
+.characterminibox{
+    background-color: black;
+    height: 120px;
+    width: 120px;
+    border-radius:5px;
+    transform: translateY(-2735px)translateX(35px);
+}
+.rick{
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translateY(-2870px)translateX(160px);
+}
+.rickp{
+    color: black;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translateY(-2880px)translateX(160px);
+}
+.characterminibox2{
+    background-color: black;
+    height: 120px;
+    width: 120px;
+    border-radius:5px;
+    transform: translateY(-250px)translateX(35px);
+}
+.negan{
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translateY(-3140px)translateX(160px);
+}
+.neganp{
+    color: black;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translateY(-3160px)translateX(160px);
+}
+.h7{
+    color: black;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: translateY(-2900px);
+}
+.reviewbox{
+    width: 877px;
+    height:100px;
+    background-color: white;
+    border-radius:15px;
+    transform: translateY(-2950px)translateX(27px);
+}
+.reviewfeature{
+    color: gold;
+    transform: translateY(-3060px)translateX(29px);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.reviewp{
+    transform: translateY(-3080px)translateX(29px);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.linkp{
+    transform: translateY(-3000px)translateX(2px);
+    font-size: 20px;
+}
+.link{
+    transform: translateY(-3000px)translateX(2px);
+    border: 0px;
+    background-color: gold;
+    color: black;
+}
+.plotbutton{
+    transform:translateY(-1570px)translateX(347px);
+    border:0px;
+    background-color: gold;
+    color: black;
+}
+.plotbox{
+    height: 80px;
+}
+.synopsisbutton{
+    transform: translateY(-1690px)translateX(595px);
+    border:0px;
+    background-color: gold;
+    color: black;
+}
+.characterbutton{
+    transform:translateX(410px)translateY(-2890px);
+    border: 0px;
+    background-color: gold;
+    color: black;
+}
+.reviewbutton{
+    transform: translateY(-3095px) translateX(410px);
+    border: 0px;
+    background-color: gold;
+    color: black;
+}

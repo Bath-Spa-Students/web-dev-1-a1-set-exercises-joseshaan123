@@ -1,0 +1,24 @@
+body{
+    background-color: gray;
+}
+.h7{
+    color: black;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: translateY(-70px);
+    text-align: center;
+}
+
+.reviewfeature{
+    color: gold;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    transform: translateY(-130px);
+}
+.reviewp{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translateY(-110px);
+}

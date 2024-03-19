@@ -1,0 +1,56 @@
+body{
+    background-color: grey;
+}
+h6{
+    color: black;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: translateY(0px);
+    text-align: center;
+    
+}
+.characterbox{
+    background-color: white;
+    width: 855px;
+    height: 300px;
+    transform: translateY(0px)translateX(27px);
+    border-radius: 15px;
+}
+.characterminibox{
+    background-color: black;
+    height: 120px;
+    width: 120px;
+    border-radius:5px;
+    transform: translateY(-280px)translateX(35px);
+}
+.rick{
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translateY(-415px)translateX(160px);
+}
+.rickp{
+    color: black;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translateY(-425px)translateX(160px);
+}
+.characterminibox2{
+    background-color: black;
+    height: 120px;
+    width: 120px;
+    border-radius:5px;
+    transform: translateY(-400px)translateX(35px);
+}
+.negan{
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translateY(-540px)translateX(160px);
+}
+.neganp{
+    color: black;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translateY(-550px)translateX(160px);
+}
