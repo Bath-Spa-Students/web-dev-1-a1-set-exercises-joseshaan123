@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exercise1bonus.css">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+   <h1 class="heading">A Guide to<br>HTML<br>and<br>CSS </h1>
+   <p>To develop a website, We must learn some of the key fatures to buiding a website</p>
+   <p>To build a proffesional website, we have to focus on 3 features </p>
+  
+    <div>
+    <div class="line1"></div>
+    </div>
+    <div>
+     <div class="line2"></div>
+    </div>
+    <div>
+     <div class="line3"></div>
+    </div>
+    <div>
+     <div class="line4"></div>
+    </div>
+    <div>
+     <div class="line5"></div>
+    </div>
+    <div>
+     <div class="featurebox1"></div>
+    </div>
+    <div>
+     <div class="featurebox2"></div>
+    </div>
+    <div>
+     <div class="featurebox3"></div>
+    </div>
+  <p class="Structure">Sturucture<br><pre class="html">HTML</pre></p>
+  <p class="style">Style<br><pre class="css">CSS</pre></p>
+  <p class="interaction">Interaction<br><pre class="java"> Java Script</pre></p>
+  </header>
+
+ <p class="p1">In this guide, we are going to learn about HTML and CSS.</p>
+   <nav>
+    <h2><u>HTML</u></h2>
+      <p class="htmlp">HTML (Hypertext Markup Language) is all about the structure of the webpage, features and elements that we need to add for our proffesional website</p>
+    <div>
+    <img src="htmlpic1.jpg" class="htmlpic">
+    <img src="htmlpic2.jpg" class="htmlpic">
+    <img src="htmlpic3.jpg" class="htmlpic">
+    </div>
+    <p class="htmlp" id="elementp">Before structuring a webpage using html, we have to learn about the HTML tags that helps the browser to understand what we should be added for our website</p>
+    <h3 class="element"><u>Elements & HTML Tags</u></h3>
+     <p id="elementp"> An element is a segment of HTML that visibles specific components of a web page like images,texts,buttons,forms,tables,links etc. HTML tags contains the elements and attributes that structures your webpage.They are enclosed with brackets (<code>&lt;&gt;</code>).Most of the tags consists of an opening tag&lt;&gt; and a closing tag&lt;&gt;. The tags that has a closing tag are called container tag and the tags that consist of only opening tag are called emppty tags</p>
+     <p id="elementp">Some of the most important element tags in html are:-</p>
+    <h4 id="elementp" class="container"><u>Container tags</u></h4>
+      <ul id="elementp" class="containerp">
+        <li>HTML tag(<code>&lt;HTML&gt;</code>):- HTML tag contains the element which is the root of the HTML page.It contains all the other element tags that make up a webpage.It has a closing tag <code>&lt;/HTML&gt;</code> as it is a container tag.</li>
+           <div><div class="htmlbox"></div></div>
+           <pre class="htmleg">
+            eg:- 
+                <code>
+                &lt;html&gt;
+                &lt;head&gt;
+                &lt;title&gt;&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                &lt;p&gt;Hello World&lt;p&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+                </code>
+           </pre>
+        <li class="headtag">Head Tag(<code>&lt;head&gt;&lt;/head&gt;</code>):-The head tag contains other tags like titles , styles and other meta information tags.</li>
+            <div><div class="headbox"></div></div>
+            <pre class="headeg">
+            eg:- 
+            <code>
+                &lt;html&gt;
+                &lt;body&gt;
+                &lt;title&gt;&lt;/title&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+            </code>
+            </pre>
+        <li class="titletag" >Title Tag (<code>&lt;title&gt;&lt;/title&gt;</code>):-Title tag shows the title of the HTML document and makes it visible in the title bar or the tab of the browser. </li>
+            <div><div class="titlebox"></div></div>
+            <pre class="titleeg">
+            eg:- 
+            <code>
+            &lt;title&gt;HELLO WORLD!&lt;/title&gt;
+            </code>
+            This title can be seen in
+            browser tab.
+            </pre>
+        <li class="bodytag">Body Tag(<code>&lt;body&gt;&lt;/body&gt;</code>):-The body tag consists of the main elements of an HTML webpage like images,text,links.The elements nested under the body tag will be visible in the webpage. </li>
+            <div><div class="bodybox"></div></div>
+            <pre class="bodyeg">
+                eg:- 
+                <code>
+                &lt;body&gt;
+                &lt;p&gt;HELLO WORLD&lt;/p&gt;
+                &lt;/body&gt;
+                </code>
+                This text under this body tag will
+                be visible on the webpage.
+            </pre>
+        <li class="headingtag">Heading tag (<code>&lt;h1&gt;&lt;/h1&gt;</code>):-Heading tag allows you to put headings for each levels of your webpage. You are able to put upto 6 levels of headings. You can use your preffered level of heading multiple times</li>
+            <div><div class="headingbox"></div></div>
+            <pre class="headingeg">
+                eg:- 
+                <code>
+                &lt;body&gt;
+                &lt;h1&gt;HELLO WORLD&lt;/h1&gt;
+                &lt;h2&gt;HELLO WORLD&lt;/h2&gt;
+                &lt;h3&gt;HELLO WORLD&lt;/h3&gt;
+                &lt;h3&gt;HELLO WORLD&lt;/h3&gt;
+                &lt;h4&gt;HELLO WORLD&lt;/h4&gt;
+                &lt;h5&gt;HELLO WORLD&lt;/h5&gt;
+                &lt;h6&gt;HELLO WORLD&lt;/h6&gt;
+                &lt;/body&gt;
+                </code>
+                These are the levels of headings in HTML.
+                Here, Multiple level 3 headings are used.
+                </pre>
+        <li class="paragraphtag">Paragraph Tag (<code>&lt;p&gt;&lt;/p&gt;</code>):-Paragraph tag allows you to add texts to your webpage.</li>
+            <div><div class="paragraphbox"></div></div>
+            <pre class="paragrapheg">
+            eg:- 
+            <code>
+            &lt;p&gt;HELLO WORLD&lt;/p&gt;
+            </code>
+            This text inside the &lt;p&gt; &lt;/p&gt; tag will be 
+            shown in the webpage.
+            </pre> 
+        <li class="linktag">Hyperlink Tag(<code>&lt;a&gt;&lt;/a&gt;</code>):- Hyperlink Tag allows you to provide links to other websites or other your another page of your website. An attribute href is used to upload the link  by of your preffered webpage and a text can be added in between the tags to identify to the link. The text of the link will be visible in the webpage and once you click it, it will direct you the link of the uploaded webpage</li>
+            <div><div class="linkbox"></div></div> 
+            <pre class="linkeg">
+                eg:- 
+                <code>
+                &lt;a href="https://www.google.com/"&gt;Google&lt;/a&gt;
+                </code>
+                The link is uploaded the href attribute and a text is added
+                in between the tags to identify the link.
+            </pre>
+        <li class="listtag">Unordered List Tag(<code>&lt;ul&gt;&lt;/ul&gt;</code>):-This tag allows you to add an unordered list and is marked in bullet points.</li>
+            <div><div class="listbox"></div></div>
+            <pre class="listeg">
+                eg:- 
+                <code>
+                &lt;ul&gt; 
+                   &lt;li&gt;Hello World&lt;/li&gt;
+                   &lt;li&gt;Hello World&lt;/li&gt;
+                &lt;/ul&gt;
+                </code>
+                <code>&lt;ul&gt;</code> tag makes the list marked in bullet points.
+                <code>&lt;li&gt;</code> take is where we add the text that is we
+                need to add in the list.
+            </pre>
+    </ul>
+    <h5 class="empty"><u>Empty Tag</u></h5>
+    <ul>
+        <li class="brtag">Line break Tag(<code>&lt;br&gt;</code>):-This tag breakes the line of a text in a paragraph tag.It makes the text continue in the line.</li>
+            <div><div class="brbox"></div></div>  
+            <pre class="breg">
+                <code>&lt;p&gt;Hello&lt;br&gt;World&lt;/p&gt;</code>
+                The text after the br tag will
+                be visible on te next line.
+            </pre>
+        <li class="imgtag" >Image Tag(<code>&lt;img&gt;</code>):-This tag allows us to add images to the webpage.The image is added to the src attribute and an alt attribute to identify the image.</li>
+           <div><div class="imgbox"></div></div>
+           <pre class="imgeg">
+            <code>&lt;img src="img.jpg" alt="image"&gt;&lt;/img&gt;</code>
+            The image is placed on the
+            src attribute.
+        </pre>
+    </ul>
+    <h2 class="cssh"><u>CSS</u></h2>
+    <p class="csshp">CSS(Cascading Style Sheets) is where we get to style our web page.CSS is what makes our webpage more presentable to our preffered liking. Throught CSS, we are able to style the texts,images,shapes etc.</p>
+    <div>
+        <img src="css1.jpg" class="csspic">
+        <img src="css2.jpg" class="csspic">
+        <img src="css3.jpg" class="csspic">
+        </div>
+    <p class="csshp1">Before we learn how to style in css, we need to know about some of the properties of css</p>
+    <p class="csshp2">Some of the most important CSS properties are:-</p>
+    <ul class="propertieslist">
+        <li>Font size property(font-size):-This property can be used to change the sixe of a text or heading.It uses the value of pixels (px) and percent(%).</li>
+           <div><div class="fontsizebox"></div></div>
+           <pre class="fontsizeeg">
+           eg:-
+           <code>font-size:20px</code>
+           </pre>
+        <li class="backgroundtag">Background color property(background-color):-This property helps in changing the color of the background.</li>
+           <div><div class="backgroundbox"></div></div>
+           <pre class="backgroundeg">
+           eg:-
+           <code>background-color: gray</code>
+           </pre>
+        <li class="colortag">Color Property(color):-Color property changes the colour of text,lines etc.</li>
+           <div><div class="colorbox"></div></div>
+           <pre class="coloreg">
+           eg:-
+           <code>color: gray</code>
+           </pre>
+        <li class="textaligntag">Text Align Property(text-align):-This property enables us to align the texts ans paragraphs in our preffered liking.</li>
+           <div><div class="textalignbox"></div></div>
+           <pre class="textaligneg">
+            eg:-
+            <code>text-align:center</code>
+            </pre>
+        <li class="widthtag">Width Property(width):-This property enables us to change the width and size of a shape or an image to our preference.</li>
+            <div><div class="widthbox"></div></div>
+            <pre class="widtheg">
+                eg:-
+                <code>width:40px</code>
+            </pre>
+        <li class="heighttag">Height Property(height):-This property enables us to change the height and sixe of a shape or an image to our preference.</li>
+            <div><div class="heightbox"></div></div>
+            <pre class="heighteg">
+                eg:-
+                <code>height:40px</code>
+            </pre>
+        <li class="fontfamtag">Font Family Property(font-family):-Font family Property enables us to select a specific font according to our preference for our text ,pragraphs and headings.</li>
+            <div><div class="fontfambox"></div></div>
+            <pre class="fontfameg">
+                eg:-
+                <code>font-family:- Arial, Helvetica, sans-serif</code>
+            </pre>
+        <li class="bordertag">Border Tag:- This tag can increase or decrease the thickness of the border of the shape.</li>
+           <div><div class="borderbox"></div></div>
+           <pre class="bordereg">
+            eg:-
+            <code>border:2px solid</code>
+            Here,the solid symbolises the style of the border.
+           </pre>
+    </ul>
+</nav>
+<footer>
+    <p class="lastp">These are some of the most important Elements and Properties of CSS before building an HTML webpage.  </p>
+</footer>
+</body>
+</html>

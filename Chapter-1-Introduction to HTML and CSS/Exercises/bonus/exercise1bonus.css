@@ -1,0 +1,411 @@
+body{
+    background-color: rgba(0, 0, 0, 0.85);
+}
+.heading{
+    color: white;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.line1{
+    height: 200px;
+    width: 5px;
+    background-color: white;
+    transform: translateX(760px);
+}
+.line2{
+    height: 5px;
+    width:600px;
+    background-color: white;
+    transform: translateX(460px);
+}
+.line3{
+    height: 50px;
+    width:5px;
+    background-color: white;
+    transform: translateX(460px);
+}
+.line4{
+    height: 50px;
+    width:5px;
+    background-color: white;
+    transform: translateX(760px)translateY(-51px);
+}
+
+.line5{
+    height: 50px;
+    width:5px;
+    background-color: white;
+    transform: translateX(1055px)translateY(-100px);
+}
+.featurebox1{
+    height: 100px;
+    width: 200px;
+    transform: translateX(360px)translateY(-103px);
+    background-color: white;
+
+}
+.featurebox2{
+    height: 100px;
+    width: 200px;
+    transform: translateX(660px)translateY(-202px);
+    background-color: white;
+
+}
+.featurebox3{
+    height: 100px;
+    width: 200px;
+    transform: translateX(955px)translateY(-301px);
+    background-color: white;
+
+}
+nav{
+    transform: translateX(-16px);
+}
+.html{
+    color: gray;
+    transform: translateY(-450px)translateX(430px);
+    font-size: 30px;
+}
+.Structure{
+    transform: translateX(-295px)translateY(-420px);
+    font-size: 30px;
+    color: black;
+}
+.css{
+    color: gray;
+    transform: translateY(-580px)translateX(735px);
+    font-size: 30px;
+}
+.style{
+    transform: translateX(10px)translateY(-550px);
+    font-size: 30px;
+    color: black;
+}
+.java{
+    color: gray;
+    transform: translateY(-710px)translateX(950px);
+    font-size: 30px;
+}
+.interaction{
+    transform: translateX(310px)translateY(-680px);
+    font-size: 30px;
+    color: black;
+}
+p.p1{
+    transform: translateY(-635px);
+    text-align: center;
+}
+h2{
+    transform: translateY(-625px)translateX(20px);
+    font-size: 40px;
+    color: white;
+}
+.htmlp{
+    transform: translateY(-620px) translateX(40px);
+    text-align: left;
+}
+.htmlpic{
+    width: 400px;
+    height: 300px;
+    transform:translateY(-615px)translateX(40px);
+    margin-right: 20px;
+}
+#elementp{
+    transform: translateY(-590px) translateX(20px);
+    text-align: left;
+}
+.element{
+    transform: translateY(-590px) translateX(20px); 
+    font-size: 30px;
+    color: white;
+}
+.container{
+    font-size: 30px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.containerp{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.htmlbox{
+    background-color: white;
+    width: 300px;
+    height:250px;
+    transform: translateY(20px);
+}
+.htmleg{
+     color: black;
+     transform: translateY(-250px)translateX(-120px);
+}
+.headtag{
+    transform: translateY(-270px);
+}
+.headbox{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    transform: translateY(-245px);
+}
+.headeg{
+    color: black;
+    transform: translateY(-450px)translateX(-120px);
+}
+.titletag{
+    transform: translateY(-470px)translateX(0px)
+}
+.titlebox{
+    background-color: white;
+    width: 350px;
+    height: 180px;
+    transform: translateY(-445px);
+}
+.titleeg{
+    color: black;
+    transform: translateY(-625px)translateX(-120px);
+}
+.bodytag{
+    transform: translateY(-620px)translateX(0px)
+}
+.bodybox{
+    background-color: white;
+    width: 420px;
+    height: 200px;
+    transform: translateY(-590px);
+}
+.bodyeg{
+    color: black;
+    transform: translateY(-800px)translateX(-165px);
+}
+.headingtag{
+    transform: translateY(-810px)translateX(0px)
+}
+.headingbox{
+    background-color: white;
+    width: 470px;
+    height: 340px;
+    transform: translateY(-780px);
+}
+.headingeg{
+    color: black;
+    transform: translateY(-1135px)translateX(-165px);
+}
+.paragraphtag{
+    transform: translateY(-1140px)translateX(0px)
+}
+.paragraphbox{
+    background-color: white;
+    width: 470px;
+    height: 160px;
+    transform: translateY(-1110px);
+}
+.paragrapheg{
+    color: black;
+    transform: translateY(-1280px)translateX(-125px);
+}
+.linktag{
+    transform: translateY(-1285px)translateX(0px)
+}
+.linkbox{
+    background-color: white;
+    width: 670px;
+    height: 160px;
+    transform: translateY(-1250px);
+}
+.linkeg{
+    color: black;
+    transform: translateY(-1420px)translateX(-170px);
+}
+.listtag{
+    transform: translateY(-1420px)translateX(0px)
+}
+.listbox{
+    background-color: white;
+    width: 670px;
+    height: 250px;
+    transform: translateY(-1385px);
+}
+.listeg{
+    color: black;
+    transform: translateY(-1650px)translateX(-170px);
+}
+.empty{
+    font-size: 30px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transform: translateY(-2250px)translateX(20px);
+}
+.brtag{
+    transform: translateY(-2250px)translateX(20px);
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.brbox{
+    background-color: white;
+    width: 400px;
+    height:85px;
+    transform: translateY(-2220px)translateX(20px);
+}
+.breg{
+    color: black;
+    transform: translateY(-2320px)translateX(-150px);
+    font-size:20px;
+}
+.imgtag{
+    transform: translateY(-2320px)translateX(20px);
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imgbox{
+    background-color: white;
+    width: 420px;
+    height:85px;
+    transform: translateY(-2290px)translateX(20px);
+}
+.imgeg{
+    color: black;
+    transform: translateY(-2390px)translateX(-110px);
+    font-size:20px;
+}
+.cssh{
+    transform: translateY(-2370px)translateX(20px);
+}
+.csshp{
+    transform: translateY(-2370px)translateX(20px);
+    text-align: left;
+}
+.csspic{
+    width: 400px;
+    height: 300px;
+    transform:translateY(-2350px)translateX(40px);
+    margin-right: 20px;
+}
+.csshp1{
+    transform:translateY(-2340px)translateX(20px);
+    text-align: left;
+}
+.csshp2{
+    transform:translateY(-2340px)translateX(20px);
+    text-align: left;
+}
+.propertieslist{
+    transform:translateY(-2340px)translateX(20px);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.fontsizebox{
+    transform:translateY(20px)translateX(0px); 
+    background-color: white;
+    width:205px;
+    height:50px;
+}
+.fontsizeeg{
+    transform: translateX(-110px)translateY(-50px);
+    color: black;
+}
+.backgroundtag{
+    transform: translateY(-60px);
+}
+.backgroundbox{
+    transform:translateY(-30px)translateX(0px); 
+    background-color: white;
+    width:255px;
+    height:50px;
+}
+.backgroundeg{
+    transform: translateX(-110px)translateY(-100px);
+    color: black;
+}
+.colortag{
+    transform: translateY(-110px);
+}
+.colorbox{
+    transform:translateY(-75px)translateX(0px); 
+    background-color: white;
+    width:150px;
+    height:50px;
+}
+.coloreg{
+    transform: translateX(-110px)translateY(-145px);
+    color: black;
+}
+.textaligntag{
+    transform: translateY(-145px);
+}
+.textalignbox{
+    transform:translateY(-110px)translateX(0px); 
+    background-color: white;
+    width:200px;
+    height:50px;
+}
+.textaligneg{
+    transform: translateX(-120px)translateY(-180px);
+    color: black;
+}
+.widthtag{
+    transform: translateY(-180px);
+}
+.widthbox{
+    transform:translateY(-140px)translateX(0px); 
+    background-color: white;
+    width:150px;
+    height:50px;
+}
+.widtheg{
+    transform: translateX(-160px)translateY(-210px);
+    color: black;
+}
+.heighttag{
+   
+        transform: translateY(-210px);
+    }
+.heightbox{
+        transform:translateY(-170px)translateX(0px); 
+        background-color: white;
+        width:150px;
+        height:50px;
+}
+.heighteg{
+    transform: translateX(-160px)translateY(-240px);
+    color: black;
+}
+.fontfamtag{
+   transform: translateY(-240px);
+}
+.fontfambox{
+    transform:translateY(-200px)translateX(0px); 
+    background-color: white;
+    width:500px;
+    height:50px;
+}
+.fontfameg{
+    transform: translateX(-160px)translateY(-270px);
+    color: black;
+}
+.bordertag{
+    transform: translateY(-270px);
+}
+.borderbox{
+    transform:translateY(-230px)translateX(0px); 
+    background-color: white;
+    width:570px;
+    height:70px;
+}
+.bordereg{
+    transform: translateX(-120px)translateY(-320px);
+    color: black;
+}
+.lastp{
+    transform: translateY(-2650px);
+}
