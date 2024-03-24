@@ -1,0 +1,29 @@
+body{
+    background-color:aqua;
+  
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.wave{
+    height: 500px;
+    width: 350px;
+    float:left;
+    filter:  brightness(100%) hue-rotate(220deg) saturate(200%)  ;
+}
+.jellyfish{
+    height: 500px;
+    width: 350px;
+    transform: translateX(250px);
+    filter:hue-rotate(110deg) saturate(200%) contrast(110%) brightness(150%);
+    float: left;
+    
+}
+.tortoise{
+    height: 500px;
+    width: 350px;
+    transform: translateX(450px);
+    filter: grayscale(100%) brightness(120%);
+}
