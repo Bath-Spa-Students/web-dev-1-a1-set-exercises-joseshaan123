@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+form{
+    transform: translateX(0px)translateY(-300px);
+    font-size: 40px;
+    text-align: center;
+
+}
+.orangebox{
+    width:500px;
+    height: 400px;
+    background-color: orangered;
+    transform: translateX(530px)translateY(60px);
+    border-radius: 20px ;
+}
+input{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px ;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 20px;
+}
