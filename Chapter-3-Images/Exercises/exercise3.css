@@ -27,3 +27,16 @@ h1{
     transform: translateX(450px);
     filter: grayscale(100%) brightness(120%);
 }
+.copyright{
+    float: left;
+     transform: translateX(50px);
+    
+}
+.copyright2{
+    float: left;
+    transform: translateX(415px);
+}
+.copyright3{
+    float: left;
+    transform: translateX(717px);
+}
